@@ -42,7 +42,7 @@ our goal is to identify the zipcodes that faced outages which are typically anom
 
 So even though it's an unsupervised task, to have an additional validation of our results and models, we used domain knowledge and expertise to set some constraints that will classify if the zipcode has experienced an outage, like pseudo true labels. So after getting pseudo true labels, the metric we used in recall score. The reason for using the recall score is we want to focus on false negatives because we dont want to classify zip codes that did not experience outage, but it experience outage. Also, we used k means clustering as a baseline method to measure how much our ensemble model learning improved and the ensemble learning improved the score by 35%
 
-## Visualizations of findings.
+## Visualizations of findings.(ANALYTICAL DASHBOARD)
 
 ![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/0b14416f-3be7-4aee-9a66-b04e46f2165c)
 
