@@ -44,7 +44,10 @@ So even though it's an unsupervised task, to have an additional validation of ou
 
 ## Visualizations of findings.
 
-![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/28e8d5e7-680c-405e-bd19-3ca6a81ad0aa)
+![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/0b14416f-3be7-4aee-9a66-b04e46f2165c)
+
+![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/d8483e64-5c12-4450-8488-e4bfe5ae9864)
+
 
 
 
