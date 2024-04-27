@@ -48,7 +48,26 @@ So even though it's an unsupervised task, to have an additional validation of ou
 
 ![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/d8483e64-5c12-4450-8488-e4bfe5ae9864)
 
-
+## Results
+Based on above figures,Our study sheds light on the impact of Winter Storm Uri
+on residential zipcodes in Austin and provides valuable insights into demand losses and identifying vulnerable zipcodes in Austin. Our unsupervised ensemble classification and regression models proved effective in detecting
+possible outages and calculating load lost, respectively.
+Our findings indicate that the period from Feb 15tth to Feb
+17th was the most critical time for possible outages, with
+a higher magnitude of the load lost percentage detected on
+Feb 16th. This information can be used to aid in supplydemand planning for future extreme weather scenarios
+and prioritize resource allocation for vulnerable zip codes.
+Overall, our study highlights the importance of proactive
+measures and effective strategies to ensure the reliability
+of the electricity grid during extreme weather events. The
+potential application of our study is our methodology can
+serve as a reference for future studies in building energy
+domains with unsupervised anomaly detection tasks with
+no ground truth and also can serve as a reference to studies
+with fewer data. Our results and data analysis can inform
+policymakers, utility companies, and other stakeholders in
+developing effective strategies to minimize the impact of
+future extreme weather events on residential buildings.
 
 
 
