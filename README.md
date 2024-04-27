@@ -48,6 +48,37 @@ So even though it's an unsupervised task, to have an additional validation of ou
 
 ![image](https://github.com/prav0761/Unsupervised-Anomaly-Detection-of-Winter-Storm-Outages/assets/93844635/d8483e64-5c12-4450-8488-e4bfe5ae9864)
 
+Discussions
+The analysis of Figure 4 and Figure 5 indicates that the period from Feb 11th to Feb 14th did not show any significant
+signs of possible outages, based on both our classification
+and regression models. However, the dates from Feb 15th
+to Feb 17th showed a strong indication of possible outages,
+with a large number of outliers detected by the classification model and a higher magnitude in load lost percentage by the regression model, with Feb 16th showing the
+highest magnitude. The dates of Feb 18th and Feb 19th
+showed recovering signs from outages, returning to normalcy. Our results are reliable as they coincide with the
+timeframe of the actual power crisis in Texas, which lasted
+from Feb 15th to Feb 18th (Adam Barth, 2021) where Feb
+15th, Feb 16th, Feb 17th dates showing an increase in load
+lost and our results also signaling the same. Our results
+also show that around 60% of residential meters exhibit
+possible outages on Feb 16th by calculating the percentage
+of meters corresponding to residential zipcodes with possible outages to total meters in residential zipcodes. This result also agrees with (City, 2021) report where they discussed that more than 40% of customers lost power on
+Feb 16th. Additionally, our classification and regression
+models provided consistent signals, with an increase in
+outliers indicating a higher load lost percentage, thus predicting strong signs of possible outages. Our study also
+provided insights into the magnitude of the load lost percentage for each zipcode on each day, which can aid in
+supply-demand planning for future extreme weather scenarios. Furthermore, our study developed a framework to
+identify the zipcodes more affected by the outages, which
+can help allocate resources and prioritize relief efforts. To
+address the uncertainty and validate our results due to the
+absence of ground-truth labels, we developed an ensemble approach for our classification model and computed
+95% confidence intervals for our linear regression model
+to calculate the lost load percentage. We also included a
+random forest model to compare the performance and increase the reliability of our linear regression model. These
+methods increase the reliability of our results and address
+the limitation of model validation in unsupervised studies
+
+
 ## Results
 Based on above figures,Our study sheds light on the impact of Winter Storm Uri
 on residential zipcodes in Austin and provides valuable insights into demand losses and identifying vulnerable zipcodes in Austin. Our unsupervised ensemble classification and regression models proved effective in detecting
